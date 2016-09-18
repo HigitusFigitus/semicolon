@@ -68,12 +68,17 @@ a {
   color: white;
 }
 
-/* line 61, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 62, ../sass/style.scss */
 .semicolon {
   font-size: 10em;
   text-align: center;
   font-weight: bolder;
-  margin-bottom: 40px;
+  margin-bottom: 70px;
   color: #112A67;
   animation: fadein 3s;
 }
@@ -85,7 +90,7 @@ a {
     opacity: 1;
   }
 }
-/* line 76, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 .semicolon span {
   position: relative;
   top: 30px;
@@ -100,7 +105,12 @@ a {
     opacity: 1;
   }
 }
-/* line 92, ../sass/style.scss */
+/* line 91, ../sass/style.scss */
+.s {
+  font-size: 1.2em;
+}
+
+/* line 97, ../sass/style.scss */
 .numberCont {
   width: 80%;
   margin: 0 auto;
@@ -110,17 +120,22 @@ a {
   color: white;
   text-align: center;
   border: 1px solid black;
-  border-radius: 2px;
+  border-radius: 20px;
   margin-bottom: 50px;
 }
 
-/* line 108, ../sass/style.scss */
+/* line 113, ../sass/style.scss */
 .number {
   padding: 20px;
   font-size: 2em;
 }
 
-/* line 113, ../sass/style.scss */
+/* line 118, ../sass/style.scss */
+.specialh2 {
+  font-weight: 600;
+}
+
+/* line 124, ../sass/style.scss */
 .content {
   width: 80%;
   margin: 0 auto;
@@ -129,13 +144,13 @@ a {
   text-align: center;
   border-radius: 20px;
 }
-/* line 123, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .content h2 {
   padding: 20px;
   font-size: 1.5em;
 }
 
-/* line 130, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .phone {
   background: url(../images/iphone.png);
   background-size: cover;
@@ -145,9 +160,9 @@ a {
   margin-top: 50px;
 }
 
-/* line 142, ../sass/style.scss */
+/* line 153, ../sass/style.scss */
 .animation {
-  background: url(../images/insta.gif) black;
+  background: url(../images/webvid.gif) black;
   background-size: cover;
   width: 190px;
   height: 341px;
@@ -163,15 +178,42 @@ a {
   }*/
 }
 
+/* line 169, ../sass/style.scss */
+.donate {
+  margin-top: 510px;
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* line 179, ../sass/style.scss */
+.btn {
+  text-align: center;
+  color: black;
+  border: solid black 1px;
+  background-color: #112A67;
+  color: white;
+  width: 160px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  font-size: 1.7em;
+  padding: 8px;
+}
+
 @media screen and (min-width: 823px) {
-  /* line 162, ../sass/style.scss */
+  /* line 195, ../sass/style.scss */
   .numberCont {
     max-width: 600px;
     margin: 0 auto;
     margin-bottom: 50px;
   }
 
-  /* line 168, ../sass/style.scss */
+  /* line 202, ../sass/style.scss */
   .content {
     max-width: 600px;
     margin: 0 auto;
