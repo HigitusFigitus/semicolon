@@ -49,15 +49,32 @@ table {
 /**/
 /*RESET END*/
 /**/
-.semicolon{
+.semicolon{ 
 	font-size: 10em;
 	text-align: center;
 	//background: green;
 	font-weight: bolder;
 	margin-top: -20px;
 	margin-bottom: 40px;
+	animation: fadein 4s;
+	@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+	}
+	
+	span{
+		animation: fadein 4s;
+		animation-timing-function: ease-in;
+		@keyframes fadein {
+    	from { opacity: 0; }
+    	to   { opacity: 1; }
+		}
+		
+	}
 
 }
+
+
 
 .numberCont{
 	width: 80%;
@@ -101,4 +118,17 @@ table {
  	margin-top: 50px;
 
 }
+
+/*.test{
+	background-color: red;
+	width: 187px;
+	height: 332px;
+	margin:0 auto;
+	margin-top: -100;
+	animation: fadein 4s;
+	@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+}*/
 
