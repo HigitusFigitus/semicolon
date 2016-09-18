@@ -63,11 +63,17 @@ table {
 /*RESET END*/
 /**/
 /* line 52, ../sass/style.scss */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 57, ../sass/style.scss */
 body {
   background-color: #efffcd;
 }
 
-/* line 56, ../sass/style.scss */
+/* line 61, ../sass/style.scss */
 .semicolon {
   font-size: 10em;
   text-align: center;
@@ -83,7 +89,7 @@ body {
     opacity: 1;
   }
 }
-/* line 69, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 .semicolon span {
   animation: fadein 4s;
   animation-timing-function: ease-in;
@@ -96,7 +102,7 @@ body {
     opacity: 1;
   }
 }
-/* line 83, ../sass/style.scss */
+/* line 88, ../sass/style.scss */
 .numberCont {
   width: 80%;
   margin: 0 auto;
@@ -110,13 +116,13 @@ body {
   margin-bottom: 50px;
 }
 
-/* line 95, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .number {
   padding: 20px;
   font-size: 2em;
 }
 
-/* line 100, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 .content {
   width: 80%;
   margin: 0 auto;
@@ -126,12 +132,12 @@ body {
   border-radius: 20px;
   border: 1px solid black;
 }
-/* line 109, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 .content h2 {
   padding: 20px;
 }
 
-/* line 115, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
 .phone {
   background: url(../images/iphone.png);
   background-size: cover;
@@ -141,15 +147,20 @@ body {
   margin-top: 50px;
 }
 
-/*.test{
-	background-color: red;
-	width: 187px;
-	height: 332px;
-	margin:0 auto;
-	margin-top: -100;
-	animation: fadein 4s;
-	@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+/* line 132, ../sass/style.scss */
+.test {
+  background: url(../images/insta.gif) black;
+  background-size: cover;
+  width: 190px;
+  height: 341px;
+  /*	width: 187px;
+  	height: 332px;
+  	
+  	margin-top: -100;*/
+  margin: -397px auto;
+  	/*animation: fadein 4s;
+  	@keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }*/
 }
-}*/

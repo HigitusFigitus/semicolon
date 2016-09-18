@@ -49,6 +49,11 @@ table {
 /**/
 /*RESET END*/
 /**/
+a{
+	text-decoration: none;
+	color: white;
+}
+
 body{
 	background-color: #efffcd;
 
@@ -123,16 +128,21 @@ body{
 
 }
 
-/*.test{
-	background-color: red;
-	width: 187px;
+
+.test{
+	background: url(../images/insta.gif) black;
+	background-size: cover;
+	width: 190px;
+	height: 341px;
+/*	width: 187px;
 	height: 332px;
-	margin:0 auto;
-	margin-top: -100;
-	animation: fadein 4s;
+	
+	margin-top: -100;*/
+	margin:-397px auto;
+	/*animation: fadein 4s;
 	@keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
 }*/
+}
 
