@@ -49,12 +49,16 @@ table {
 /**/
 /*RESET END*/
 /**/
+body{
+	background-color: #efffcd;
+
+}
 .semicolon{ 
 	font-size: 10em;
 	text-align: center;
 	//background: green;
 	font-weight: bolder;
-	margin-top: -20px;
+	//margin-top: -1px;
 	margin-bottom: 40px;
 	animation: fadein 4s;
 	@keyframes fadein {

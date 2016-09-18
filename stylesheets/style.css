@@ -63,11 +63,15 @@ table {
 /*RESET END*/
 /**/
 /* line 52, ../sass/style.scss */
+body {
+  background-color: #efffcd;
+}
+
+/* line 56, ../sass/style.scss */
 .semicolon {
   font-size: 10em;
   text-align: center;
   font-weight: bolder;
-  margin-top: -20px;
   margin-bottom: 40px;
   animation: fadein 4s;
 }
@@ -79,7 +83,7 @@ table {
     opacity: 1;
   }
 }
-/* line 65, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 .semicolon span {
   animation: fadein 4s;
   animation-timing-function: ease-in;
@@ -92,7 +96,7 @@ table {
     opacity: 1;
   }
 }
-/* line 79, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 .numberCont {
   width: 80%;
   margin: 0 auto;
@@ -106,13 +110,13 @@ table {
   margin-bottom: 50px;
 }
 
-/* line 91, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 .number {
   padding: 20px;
   font-size: 2em;
 }
 
-/* line 96, ../sass/style.scss */
+/* line 100, ../sass/style.scss */
 .content {
   width: 80%;
   margin: 0 auto;
@@ -122,12 +126,12 @@ table {
   border-radius: 20px;
   border: 1px solid black;
 }
-/* line 105, ../sass/style.scss */
+/* line 109, ../sass/style.scss */
 .content h2 {
   padding: 20px;
 }
 
-/* line 111, ../sass/style.scss */
+/* line 115, ../sass/style.scss */
 .phone {
   background: url(../images/iphone.png);
   background-size: cover;
