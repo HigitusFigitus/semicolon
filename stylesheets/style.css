@@ -68,18 +68,14 @@ a {
   color: white;
 }
 
-/* line 57, ../sass/style.scss */
-body {
-  background-color: #efffcd;
-}
-
 /* line 61, ../sass/style.scss */
 .semicolon {
   font-size: 10em;
   text-align: center;
   font-weight: bolder;
   margin-bottom: 40px;
-  animation: fadein 4s;
+  color: #112A67;
+  animation: fadein 3s;
 }
 @keyframes fadein {
   from {
@@ -89,9 +85,9 @@ body {
     opacity: 1;
   }
 }
-/* line 74, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 .semicolon span {
-  animation: fadein 4s;
+  animation: fadein 3s;
   animation-timing-function: ease-in;
 }
 @keyframes fadein {
@@ -102,27 +98,27 @@ body {
     opacity: 1;
   }
 }
-/* line 88, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .numberCont {
   width: 80%;
   margin: 0 auto;
   margin-right: 10%;
   margin-left: 10%;
-  background-color: black;
+  background-color: #112A67;
   color: white;
   text-align: center;
   border: 1px solid black;
-  border-radius: 20px;
+  border-radius: 2px;
   margin-bottom: 50px;
 }
 
-/* line 100, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .number {
   padding: 20px;
   font-size: 2em;
 }
 
-/* line 105, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 .content {
   width: 80%;
   margin: 0 auto;
@@ -130,14 +126,14 @@ body {
   margin-left: 10%;
   text-align: center;
   border-radius: 20px;
-  border: 1px solid black;
 }
-/* line 114, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .content h2 {
   padding: 20px;
+  font-size: 1.5em;
 }
 
-/* line 120, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .phone {
   background: url(../images/iphone.png);
   background-size: cover;
@@ -147,8 +143,8 @@ body {
   margin-top: 50px;
 }
 
-/* line 132, ../sass/style.scss */
-.test {
+/* line 140, ../sass/style.scss */
+.animation {
   background: url(../images/insta.gif) black;
   background-size: cover;
   width: 190px;
@@ -163,4 +159,20 @@ body {
       from { opacity: 0; }
       to   { opacity: 1; }
   }*/
+}
+
+@media screen and (min-width: 823px) {
+  /* line 159, ../sass/style.scss */
+  .numberCont {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  /* line 165, ../sass/style.scss */
+  .content {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
 }

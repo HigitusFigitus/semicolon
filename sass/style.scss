@@ -55,7 +55,7 @@ a{
 }
 
 body{
-	background-color: #efffcd;
+	//background-color: #efffcd;
 
 }
 .semicolon{ 
@@ -65,14 +65,16 @@ body{
 	font-weight: bolder;
 	//margin-top: -1px;
 	margin-bottom: 40px;
-	animation: fadein 4s;
+	color:#112A67;
+	animation: fadein 3s;
 	@keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 	}
 	
+	
 	span{
-		animation: fadein 4s;
+		animation: fadein 3s;
 		animation-timing-function: ease-in;
 		@keyframes fadein {
     	from { opacity: 0; }
@@ -90,12 +92,16 @@ body{
 	margin:0 auto;
 	margin-right: 10%;
 	margin-left: 10%;
-	background-color: black;
+	background-color:#112A67;
+	//background-color: #16D16A;
+	//01C9CC
+	//background-color: #01C9CC;
 	color: white;
 	text-align: center;
 	border: 1px solid black;
-	border-radius: 20px;
+	border-radius: 2px;
 	margin-bottom: 50px;
+
 }
 .number{
 	padding:20px;
@@ -109,10 +115,12 @@ body{
 	margin-left: 10%;
 	text-align: center;
 	border-radius: 20px;
-	border: 1px solid black;
+	//border: 1px solid black;
+
 	
 	h2{
 	padding: 20px;
+	font-size: 1.5em;
 
 	}
 }
@@ -129,7 +137,7 @@ body{
 }
 
 
-.test{
+.animation{
 	background: url(../images/insta.gif) black;
 	background-size: cover;
 	width: 190px;
@@ -146,3 +154,17 @@ body{
 }*/
 }
 
+@media screen and (min-width: 823px) {
+	
+	.numberCont{
+		max-width:600px;
+		margin:0 auto;
+		margin-bottom: 50px;
+	}
+
+	.content {
+		max-width:600px;
+		margin:0 auto;
+		margin-bottom: 50px;
+	}
+}
