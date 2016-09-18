@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**/
+/*RESET END*/
+/**/
+a{
+	text-decoration: none;
+	color: white;
+}
+
+body{
+	//background-color: #efffcd;
+	font-family: 'Lato', sans-serif;
+
+}
+.semicolon{ 
+	font-size: 10em;
+	text-align: center;
+	//background: green;
+	font-weight: bolder;
+	//margin-top: -1px;
+	margin-bottom: 70px;
+	color:#112A67;
+	animation: fadein 3s;
+	@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+	}
+	
+	
+	span{
+		position: relative;
+		top: 30px;
+		animation: fadein 3s;
+		animation-timing-function: ease-in;
+		@keyframes fadein {
+    	from { opacity: 0; }
+    	to   { opacity: 1; }
+		}
+		
+	}
+
+}
+
+.s{
+	font-size: 1.2em;
+}
+
+
+
+.numberCont{
+	width: 80%;
+	margin:0 auto;
+	margin-right: 10%;
+	margin-left: 10%;
+	background-color:#112A67;
+	//background-color: #16D16A;
+	//01C9CC
+	//background-color: #01C9CC;
+	color: white;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin-bottom: 50px;
+
+}
+.number{
+	padding:20px;
+	font-size: 2em;
+}
+
+.specialh2{
+	font-weight: 600;
+
+
+}
+
+.content{
+	width: 80%;
+	margin:0 auto;
+	margin-right: 10%;
+	margin-left: 10%;
+	text-align: center;
+	border-radius: 20px;
+	//border: 1px solid black;
+
+	
+	h2{
+	padding: 20px;
+	font-size: 1.5em;
+
+	}
+}
+
+.phone{
+	//background-color: red;
+	background: url(../images/iphone.png);
+	background-size: cover; 
+ 	width:220px;
+ 	height:452px;
+ 	margin: 0 auto;
+ 	margin-top: 50px;
+
+}
+
+
+.animation{
+	background: url(../images/webvid.gif) black;
+	background-size: cover;
+	width: 190px;
+	height: 341px;
+/*	width: 187px;
+	height: 332px;
+	
+	margin-top: -100;*/
+	margin:-397px auto;
+	/*animation: fadein 4s;
+	@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}*/
+}
+.donate{
+	margin-top: 510px;
+	font-size: 1.5em;
+	color:black;
+	text-align: center;
+	margin-bottom: 20px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.btn{
+	text-align: center;
+	color: black;
+	border: solid black 1px;
+	background-color: #112A67;
+	color: white;
+	width: 160px;
+	border-radius: 5px;
+	margin:0 auto;
+	margin-bottom: 15px;
+	font-size: 1.7em;
+	padding: 8px;
+}
+
+@media screen and (min-width: 823px) {
+	
+	.numberCont{
+		max-width:600px;
+		margin:0 auto;
+		margin-bottom: 50px;
+
+	}
+
+	.content {
+		max-width:600px;
+		margin:0 auto;
+		margin-bottom: 50px;
+	}
+}
