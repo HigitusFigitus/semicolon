@@ -108,8 +108,10 @@ table {
 
 /* line 94, ../sass/style.scss */
 .phone {
-  width: 300px;
-  height: 500px;
-  background-color: black;
-  margin: 50px auto;
+  background: url(../images/iphone.png);
+  background-size: cover;
+  width: 220px;
+  height: 452px;
+  margin: 0 auto;
+  margin-top: 50px;
 }
