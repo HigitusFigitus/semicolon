@@ -74,6 +74,8 @@ body{
 	
 	
 	span{
+		position: relative;
+		top: 30px;
 		animation: fadein 3s;
 		animation-timing-function: ease-in;
 		@keyframes fadein {
@@ -153,6 +155,7 @@ body{
     to   { opacity: 1; }
 }*/
 }
+
 
 @media screen and (min-width: 823px) {
 	
