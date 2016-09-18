@@ -1,0 +1,222 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 6, ../sass/style.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 27, ../sass/style.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../sass/style.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../sass/style.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../sass/style.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 40, ../sass/style.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../sass/style.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**/
+/*RESET END*/
+/**/
+/* line 52, ../sass/style.scss */
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 57, ../sass/style.scss */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* line 62, ../sass/style.scss */
+.semicolon {
+  font-size: 10em;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 70px;
+  color: #112A67;
+  animation: fadein 3s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 77, ../sass/style.scss */
+.semicolon span {
+  position: relative;
+  top: 30px;
+  animation: fadein 3s;
+  animation-timing-function: ease-in;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* line 91, ../sass/style.scss */
+.s {
+  font-size: 1.2em;
+}
+
+/* line 97, ../sass/style.scss */
+.numberCont {
+  width: 80%;
+  margin: 0 auto;
+  margin-right: 10%;
+  margin-left: 10%;
+  background-color: #112A67;
+  color: white;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+/* line 113, ../sass/style.scss */
+.number {
+  padding: 20px;
+  font-size: 2em;
+}
+
+/* line 118, ../sass/style.scss */
+.specialh2 {
+  font-weight: 600;
+}
+
+/* line 124, ../sass/style.scss */
+.content {
+  width: 80%;
+  margin: 0 auto;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: center;
+  border-radius: 20px;
+}
+/* line 134, ../sass/style.scss */
+.content h2 {
+  padding: 20px;
+  font-size: 1.5em;
+}
+
+/* line 141, ../sass/style.scss */
+.phone {
+  background: url(../images/iphone.png);
+  background-size: cover;
+  width: 220px;
+  height: 452px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* line 153, ../sass/style.scss */
+.animation {
+  background: url(../images/webvid.gif) black;
+  background-size: cover;
+  width: 190px;
+  height: 341px;
+  /*	width: 187px;
+  	height: 332px;
+  	
+  	margin-top: -100;*/
+  margin: -397px auto;
+  	/*animation: fadein 4s;
+  	@keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }*/
+}
+
+/* line 169, ../sass/style.scss */
+.donate {
+  margin-top: 510px;
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+  margin-bottom: 20px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+/* line 179, ../sass/style.scss */
+.btn {
+  text-align: center;
+  color: black;
+  border: solid black 1px;
+  background-color: #112A67;
+  color: white;
+  width: 160px;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  font-size: 1.7em;
+  padding: 8px;
+}
+
+@media screen and (min-width: 823px) {
+  /* line 195, ../sass/style.scss */
+  .numberCont {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+
+  /* line 202, ../sass/style.scss */
+  .content {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
