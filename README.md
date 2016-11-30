@@ -5,6 +5,10 @@ Built in one day at the Hack Against Violence hackathon.
 
 The code for the backend can be found [here](https://github.com/HigitusFigitus/semicolon-back).
 
+![Semicolon App Home Snapshot](/images/home.png)
+
+![Semicolon App Phone Snapshot](/images/phone.png)
+
 ### Authored by
 
 * George Czurlanis ([@georgecode](https://github.com/georgecode))  
