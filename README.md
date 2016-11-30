@@ -5,7 +5,9 @@ Built in one day at the Hack Against Violence hackathon.
 
 The code for the backend can be found [here](https://github.com/HigitusFigitus/semicolon-back).
 
+
 ![Semicolon App Phone Gif](/images/webvid.gif)   
+
 
 ### Authored by
 
