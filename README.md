@@ -5,13 +5,7 @@ Built in one day at the Hack Against Violence hackathon.
 
 The code for the backend can be found [here](https://github.com/HigitusFigitus/semicolon-back).
 
-
-![Semicolon App Home Snapshot](/images/home.png)  
-
-![Semicolon App Phone Gif](/images/webvid.gif)  
-
-![Semicolon App Phone Snapshot](/images/phone.png)  
-
+![Semicolon App Phone Gif](/images/webvid.gif)   
 
 ### Authored by
 
@@ -42,4 +36,7 @@ The code for the backend can be found [here](https://github.com/HigitusFigitus/s
 * HTML5
 * CSS3
 * SASS
-* Twilio API
+* Twilio API  
+
+![Semicolon App Home Snapshot](/images/home.png)  
+![Semicolon App Phone Snapshot](/images/phone.png) 
