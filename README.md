@@ -9,7 +9,7 @@ The code for the backend can be found [here](https://github.com/HigitusFigitus/s
 ![Semicolon App Phone Gif](/images/webvid.gif)   
 
 
-### Authored by
+### Contributors
 
 * George Czurlanis ([@georgecode](https://github.com/georgecode))  
 * Ilaria Varriale ([@HigitusFigitus](http://github.com/HigitusFigitus))  
