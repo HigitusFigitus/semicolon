@@ -1,7 +1,8 @@
 # Semicolon
 
-Semicolon is a mobile-first application aimed at supporting those who are struggling with mental illness, suicide, and self-injury by connecting them with an expert from the National Suicide Prevention Lifeline.
-Built in one day at the Hack Against Violence hackathon.
+**Built in one day at the Hack Against Violence hackathon.**
+
+Semicolon is a mobile-first application aimed at supporting those who are struggling with mental illness and self-injury by connecting them with an expert from the National Suicide Prevention Lifeline.
 
 The code for the backend can be found [here](https://github.com/HigitusFigitus/semicolon-back).
 
